@@ -1,0 +1,58 @@
+SELECTED WORK — Edit this file and send it back
+================================================
+CARD 1
+TITLE: Blink-182 / World Tour
+META: Stadium / Arena / Worldwide / 2023–24
+ROLE: Media Server Engineer
+TAG: STADIUM / MEDIA SERVER
+DESC:
+Hippo media server operation supporting content playback and real-time IMAG across large-scale LED deployments.
+
+CARD 2
+TITLE: Ed Sheeran / Mathematics Tour
+META: Stadium / Worldwide / 2022
+ROLE: Camera Operator / LED Lead
+TAG: STADIUM / LED
+DESC:
+Camera operation and LED lead support for a 360° in-the-round system, including management of large-scale fiber infrastructure.
+
+CARD 3
+TITLE: Blink-182 / Arena Run
+META: Arena / North America
+ROLE: Media Server Operator
+TAG: ARENA / MEDIA SERVER
+DESC:
+Media server operation supporting content playback and LED system performance for arena-scale deployment.
+
+
+CARD 4
+TITLE: Dermot Kennedy / Arena Tour
+META: Arena / 2019
+ROLE: Media Server Tech / LED Lead
+TAG: ARENA / LED
+DESC:
+Media server support and lead LED engineering, ensuring system reliability and show-ready performance across the run.
+
+CARD 5
+TITLE: Lucy Dacus / Theatre Run
+META: Theatre / Worldwide
+ROLE: Media Server Engineer / LED Lead
+TAG: THEATRE / MEDIA SERVER
+DESC:
+Disguise media server programming, operation, and LED leadership across the full theatre production.
+
+CARD 6
+TITLE: Mastodon / Tour
+META: Theatre / Tour
+ROLE: Video Engineer
+TAG: THEATRE / VIDEO SYSTEMS
+DESC:
+Sole video engineer responsible for media server, LED systems, and end-to-end video workflow.
+
+CARD 7
+TITLE: TLC — Tour
+META: Tour / 2021
+ROLE: LED Engineer
+TAG: TOUR / LED
+DESC:
+LED engineer handling system setup, maintenance, and show support throughout the tour.
