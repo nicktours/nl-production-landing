@@ -149,7 +149,7 @@ function About() {
             <span className="section-num">SECTION 01</span>
             <span className="eyebrow">About</span>
           </div>
-          <h2 className="h-display">A decade behind the screens<em>, on the world's biggest stages.</em></h2>
+          <h2 className="h-display">Video systems<em> that hold up on the road.</em></h2>
         </div>
 
         <div className="about-grid">
