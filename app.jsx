@@ -47,8 +47,8 @@ function Navbar() {
   return (
     <nav className={'nav ' + (scrolled ? 'scrolled' : '')}>
       <a href="#home" className="nav-logo">
-        <img src="images/logo-white.png" alt="Nick Lepoutre" />
-        <span className="word">NL Production LLC</span>
+        <img src="images/logo-white.png" alt="NL Productions LLC" />
+        <span className="word">NL Productions LLC</span>
       </a>
       <div className="nav-links">
         <a href="#about" className={cls('about')}><span className="num">01</span>About</a>
@@ -82,7 +82,7 @@ function Hero({ tweaks }) {
 
         <div>
           <div className="reveal" style={{ '--rd': '40ms' }}>
-            <div className="eyebrow"><span className="dot"></span>Nick Lepoutre · NL Production LLC</div>
+            <div className="eyebrow"><span className="dot"></span>Nick Lepoutre · NL Productions LLC</div>
           </div>
           <h1 className="hero-title h-display" style={{ marginTop: 24 }}>
             <span className="line reveal" style={{ '--rd': '120ms' }}>High-pressure shows.</span>
@@ -104,7 +104,7 @@ function Hero({ tweaks }) {
           <div className="hero-bottom">
             <div className="hero-stat">
               <span className="label">Years Touring</span>
-              <span className="value">10<em>+</em></span>
+              <span className="value">15<em>+</em></span>
             </div>
             <div className="hero-stat">
               <span className="label">Discipline</span>
@@ -161,7 +161,7 @@ function About() {
 
           <div className="about-body">
             <p className="about-lede reveal">
-              Owner of NL Production LLC, specializing in Disguise media servers, touring video systems, and large-scale LED deployments for live entertainment, corporate events, and high-pressure productions where failure isn't an option.
+              Owner of NL Productions LLC, specializing in Disguise media servers, touring video systems, and large-scale LED deployments for live entertainment, corporate events, and high-pressure productions where failure isn't an option.
             </p>
             <p className="reveal" style={{ '--rd': '60ms' }}>
               Over the past decade, I've worked arena tours, stadium shows, festivals, and one-off events for artists including Blink-182, Ed Sheeran, Jonas Brothers, Dermot Kennedy, Mastodon, and TLC.
@@ -192,7 +192,7 @@ function About() {
             <div className="reveal" style={{ '--rd': '220ms' }}>
               <div className="eyebrow" style={{ marginBottom: 16 }}>Who I Work With</div>
               <div className="who-list">
-                {['Production Managers', 'Tour Managers', 'Creative Directors', 'Vendors', 'Touring Production Teams', 'Corporate Event Producers'].map((item) => (
+                {['Production Managers', 'Creative Directors', 'Vendors', 'Touring Production Teams'].map((item) => (
                   <span key={item} className="who-item">{item}</span>
                 ))}
               </div>
@@ -372,7 +372,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="wrap footer-row">
-        <span>© MMXXVI · NL Production LLC</span>
+        <span>© MMXXVI · NL Productions LLC</span>
         <span>Nick Lepoutre · Media Server Engineer</span>
         <a href="#home">Back to top ↑</a>
       </div>
