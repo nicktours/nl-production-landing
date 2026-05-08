@@ -53,6 +53,7 @@ function Navbar() {
       <div className="nav-links">
         <a href="#about" className={cls('about')}><span className="num">01</span>About</a>
         <a href="#portfolio" className={cls('portfolio')}><span className="num">02</span>Work</a>
+        <a href="#press" className={cls('press')}><span className="num">03</span>Press</a>
         <a href="#contact" className="nav-cta">Contact ↗</a>
       </div>
     </nav>
@@ -293,6 +294,7 @@ function FeaturedIn() {
     <section id="press" className="section press">
       <div className="wrap">
         <div className="press-header reveal">
+          <span className="section-num">SECTION 03</span>
           <span className="eyebrow"><span className="dot"></span>Featured In</span>
         </div>
         <div className="press-grid">
