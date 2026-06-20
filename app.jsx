@@ -91,7 +91,7 @@ function Hero({ tweaks }) {
           </h1>
           <div className="hero-sub">
             <p className="hero-tagline reveal" style={{ '--rd': '320ms' }}>
-              <strong>disguise specialist.</strong> Programming and operating media servers, LED, and video systems for theatre, arena, and stadium productions worldwide.
+              <strong>disguise engineer.</strong> Operating and engineering media servers, LED, and video systems for theatre, arena, and stadium productions worldwide.
             </p>
             <div className="reveal" style={{ '--rd': '420ms', display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <a href="#portfolio" className="btn">View Work <span className="arrow"></span></a>
@@ -112,7 +112,7 @@ function Hero({ tweaks }) {
               <span className="value">Arena · Stadium · Festival</span>
             </div>
             <div className="hero-stat">
-              <span className="label">Specialist</span>
+              <span className="label">Engineer</span>
               <span className="value">disguise</span>
             </div>
             <div className="hero-stat">
@@ -131,10 +131,10 @@ function Hero({ tweaks }) {
 }
 
 const SKILLS = [
-  { num: '01', name: 'disguise (d3) Operation & Programming', cat: 'Media Server' },
+  { num: '01', name: 'disguise (d3) Operation & Show Programming', cat: 'Media Server' },
   { num: '02', name: 'Resolume & Notch Integration', cat: 'Real-time Content' },
   { num: '03', name: 'LED Processing — Brompton, NovaStar', cat: 'LED Systems' },
-  { num: '04', name: 'Video Processing — Barco E2, Analog Way', cat: 'Switching' },
+  { num: '04', name: 'Video Systems', cat: 'Switching' },
   { num: '05', name: 'SMPTE Timecode Synchronization', cat: 'Timing' },
   { num: '06', name: 'Touring Network Design', cat: 'Infrastructure' },
   { num: '07', name: 'Video Signal Flow & Routing', cat: 'Systems' },
@@ -165,7 +165,7 @@ function About() {
               Owner of NL Productions LLC, specializing in Disguise media servers, touring video systems, and large-scale LED deployments for live entertainment, corporate events, and high-pressure productions where failure isn't an option.
             </p>
             <p className="reveal" style={{ '--rd': '60ms' }}>
-              Over the past decade, I've worked arena tours, stadium shows, festivals, and one-off events for artists including Blink-182, Ed Sheeran, Jonas Brothers, Dermot Kennedy, Mastodon, and TLC.
+              Over the past decade, I've worked arena tours, stadium shows, festivals, and one off events for artists including Blink-182, Ed Sheeran, Jonas Brothers, Dermot Kennedy, Mastodon, and TLC.
             </p>
             <p className="reveal" style={{ '--rd': '120ms' }}>
               My work covers media server operation, playback systems, LED processing, signal flow, system builds, and show integration. Whether a production needs a dedicated media server engineer, chief LED engineer, or someone who can bridge both, I'm brought in to keep systems running cleanly.
@@ -223,7 +223,7 @@ const SHOWS = [
   { span: 'span-5', img: 'images/blink-stadium.jpg', title: 'Blink-182 — World Tour', meta: ['Stadium', 'Arena', 'Worldwide', '2023–24'], role: 'Media Server Engineer', tag: 'STADIUM / MEDIA SERVER', desc: 'Hippo media server operation supporting content playback and real-time IMAG across large-scale LED deployments.' },
   { span: 'span-5', img: 'images/blink-arena.jpg', title: 'Blink-182 — Arena Run', meta: ['Arena', 'North America'], role: 'Media Server Operator', tag: 'ARENA / MEDIA SERVER', desc: 'Resolume server operation focused on content playback, IMAG signal integrity, timecode synchronization, and backup redundancy for arena-scale deployment.' },
   { span: 'span-7', img: 'images/dermot-kennedy.jpg', title: 'Dermot Kennedy — Arena Tour', meta: ['Arena', '2019'], role: 'Media Server Tech / LED Lead', tag: 'ARENA / LED', desc: 'Media server support and lead LED engineering, ensuring system reliability and show-ready performance across the run.' },
-  { span: 'span-6', img: 'images/LucyDacus.jpg', title: 'Lucy Dacus — Theatre Run', meta: ['Theatre', 'Worldwide'], role: 'Media Server Engineer / LED Lead', tag: 'THEATRE / MEDIA SERVER', desc: 'Disguise media server programming, operation, and LED leadership across the full theatre production.' },
+  { span: 'span-6', img: 'images/LucyDacus.jpg', title: 'Lucy Dacus — Theatre Run', meta: ['Theatre', 'Worldwide'], role: 'Media Server Engineer / LED Lead', tag: 'THEATRE / MEDIA SERVER', desc: 'Disguise media server operation, show build support, and LED leadership across the full theatre production.' },
   { span: 'span-6', img: 'images/mastodon.jpg', title: 'Mastodon — Tour', meta: ['Theatre', 'Tour'], role: 'Video Engineer', tag: 'THEATRE / VIDEO SYSTEMS', desc: 'Sole video engineer responsible for media server, LED systems, and end-to-end video workflow.' },
   { span: 'span-4', img: 'images/tlc.jpg', title: 'TLC — CrazySexyCool Tour', meta: ['Tour', '2021'], role: 'LED Engineer', tag: 'TOUR / LED', desc: 'LED engineer handling system setup, maintenance, and show support throughout the tour.' },
   { span: 'span-4', img: 'images/volbeat.jpg', title: 'Volbeat — Arena Tour', meta: ['Arena', 'USA & Europe', '2022'], role: 'Video Crew Chief / LED Lead', tag: 'ARENA / LED', desc: 'Managed video and LED crew across USA and European arena runs. Lead LED engineer for the full tour.' },
