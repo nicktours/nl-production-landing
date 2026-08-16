@@ -77,7 +77,7 @@ function Hero({ tweaks }) {
 
       <div className="hero-inner">
         <div className="hero-top">
-          <div><span className="live">Currently Booking · Q4 2026 / 2027</span></div>
+          <div><span className="live">On Tour Through 2026 · Booking 2027</span></div>
           <div className="right"><span>{fmt} · Orlando, FL</span></div>
         </div>
 
@@ -165,7 +165,7 @@ function About() {
               Owner of NL Productions LLC, specializing in Disguise media servers, touring video systems, and large-scale LED deployments for live entertainment, corporate events, and high-pressure productions where failure isn't an option.
             </p>
             <p className="reveal" style={{ '--rd': '60ms' }}>
-              Over the past decade, I've worked arena tours, stadium shows, festivals, and one off events for artists including Blink-182, Ed Sheeran, Jonas Brothers, Dermot Kennedy, Mastodon, and TLC.
+              Over the past decade, I've worked arena tours, stadium shows, festivals, and one off events for artists including J. Cole, Blink-182, Ed Sheeran, Jonas Brothers, Dermot Kennedy, Mastodon, and TLC.
             </p>
             <p className="reveal" style={{ '--rd': '120ms' }}>
               My work covers media server operation, playback systems, LED processing, signal flow, system builds, and show integration. Whether a production needs a dedicated media server engineer, chief LED engineer, or someone who can bridge both, I'm brought in to keep systems running cleanly.
@@ -219,6 +219,7 @@ function About() {
 }
 
 const SHOWS = [
+  { span: 'span-12', img: 'images/j-cole-tour.jpg', title: 'J. Cole — World Tour', meta: ['Arena', 'Sold-Out', 'Worldwide', '2026'], role: 'disguise Media Server Engineer & Operator', tag: 'ARENA / MEDIA SERVER', desc: 'disguise media server engineering and show operation for a sold-out arena world tour, driving content playback, real-time IMAG, and system redundancy across large-scale LED.' },
   { span: 'span-7', img: 'images/ed-sheeran-mathematics.jpg', title: 'Ed Sheeran — Mathematics Tour', meta: ['Stadium', 'Worldwide', '2022'], role: 'Camera Operator / LED Lead', tag: 'STADIUM / LED', desc: 'Camera operation and LED lead support for a 360° in-the-round system, including management of large-scale fiber infrastructure.' },
   { span: 'span-5', img: 'images/blink-stadium.jpg', title: 'Blink-182 — World Tour', meta: ['Stadium', 'Arena', 'Worldwide', '2023–24'], role: 'Media Server Engineer', tag: 'STADIUM / MEDIA SERVER', desc: 'Hippo media server operation supporting content playback and real-time IMAG across large-scale LED deployments.' },
   { span: 'span-5', img: 'images/blink-arena.jpg', title: 'Blink-182 — Arena Run', meta: ['Arena', 'North America'], role: 'Media Server Operator', tag: 'ARENA / MEDIA SERVER', desc: 'Resolume server operation focused on content playback, IMAG signal integrity, timecode synchronization, and backup redundancy for arena-scale deployment.' },
@@ -315,7 +316,7 @@ function FeaturedIn() {
 }
 
 function Marquee() {
-  const items = ['Blink-182', 'Ed Sheeran', 'Dermot Kennedy', 'Mastodon', 'TLC', 'Jonas Brothers', 'Lucy Dacus', 'Volbeat', 'Logic'];
+  const items = ['J. Cole', 'Blink-182', 'Ed Sheeran', 'Dermot Kennedy', 'Mastodon', 'TLC', 'Jonas Brothers', 'Lucy Dacus', 'Volbeat', 'Logic'];
   const node = (
     <span style={{ display: 'inline-flex', alignItems: 'center', gap: 64 }}>
       {items.map((t, i) => (
