@@ -91,7 +91,7 @@ function Hero({ tweaks }) {
           </h1>
           <div className="hero-sub">
             <p className="hero-tagline reveal" style={{ '--rd': '320ms' }}>
-              <strong>Disguise engineer.</strong> Operating and engineering media servers, LED, and video systems for theatre, arena, and stadium productions worldwide.
+              <strong>disguise engineer.</strong> Operating and engineering media servers, LED, and video systems for theatre, arena, and stadium productions worldwide.
             </p>
             <div className="reveal" style={{ '--rd': '420ms', display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <a href="#portfolio" className="btn">View Work <span className="arrow"></span></a>
